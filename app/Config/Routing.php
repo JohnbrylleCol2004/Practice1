@@ -48,7 +48,7 @@ class Routing extends BaseRouting
      *
      * Default: 'Home'
      */
-    public string $defaultController = '';
+    public string $defaultController = 'Schedule::index';
 
     /**
      * For Defined Routes and Auto Routing.
